@@ -104,12 +104,12 @@ section {
   border: 2px solid green;
 }
 
-/* Supporting Section */
 .supporting {
   display: flex;
   justify-content: center;
 }
 
+/* Supporting Section */
 .service {
   border: 2px solid green;
   height: 8rem;
@@ -136,10 +136,46 @@ img.paper-icon {
 }
 
 /* Info Section */
+.info {
+  border: 2px solid green;
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
 
+.title {
+  border: 3px solid pink;
+  background-color: cadetblue;
+  max-width: 10rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+}
 
+.info p {
+  border: 2px solid blue;
+}
 
 /* Footer */
 footer {
   border: 2px solid yellow;
+}
+
+footer .container {
+  background-color: azure;
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  border: 2px solid blue;
+  margin-right: 1rem;
+  height: 1.5rem;
+}
+
+footer span {
+  border: 2px solid blue;
 }
