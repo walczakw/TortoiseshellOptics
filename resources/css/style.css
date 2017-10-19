@@ -1,7 +1,8 @@
 /* General Styles */
 html {
   font-size: 18px;
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
+  background-color: white;
 }
 
 body {
@@ -163,7 +164,7 @@ footer {
   border: 2px solid yellow;
 }
 
-footer .container {
+footer {
   background-color: azure;
   padding: 4rem;
   display: flex;
@@ -179,3 +180,102 @@ footer img {
 footer span {
   border: 2px solid blue;
 }
+
+/* Media Queries */
+
+/* Max-width: 1024px */
+@media only screen and (max-width: 1024px) {
+
+    .container {
+      max-width: 100%;
+    }
+
+    header {
+      height: 22rem;
+      padding: 0;
+  }
+
+    .headline-box {
+      padding: 0.75rem 4rem;
+      margin-top: 5rem;
+      margin-right: 2rem;
+    }
+
+    .headline-box h1 {
+      font-size: 1.33rem;
+    }
+
+}
+
+/* Max-width: 470px */
+@media only screen and (max-width: 470px) {
+
+    header {
+      height: 17rem;
+      padding: 0;
+      background-position: 20%;
+  }
+
+    .headline-box {
+      margin-top: 9rem;
+      margin-right: 0;
+      padding: 1rem 0;
+      width: 100%;
+    }
+
+    .headline-box h1 {
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    .logo span {
+      display: none;
+    }
+
+    .menu ul {
+      display: none;
+    }
+
+    .menu .mobile-menu {
+      display: block;
+      color: white;
+    }
+
+    .supporting {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 3rem;
+    }
+
+    .service {
+      height: auto;
+      font-size: 0.77rem;
+      margin: 0.77rem;
+    }
+
+    .title {
+      max-width: 100%;
+      text-align: center;
+    }
+
+    .info {
+      width: auto;
+      margin-right: 0;
+      margin-bottom: 4rem;
+    }
+
+    .info p {
+      padding: 1rem;
+      font-size: 0.77rem;
+    }
+
+    footer {
+      justify-content: center;
+    }
+
+    footer span {
+      display: none;
+    }
+
+  }
