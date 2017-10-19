@@ -1,37 +1,106 @@
 /* General Styles */
-.container {
+html {
+  font-size: 18px;
+}
 
+body {
+  line-height: 1.4;
+  margin: 0 auto;
+}
+
+.container {
+  border: 3px solid red;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 
 /* Header */
 header {
+  border: 2px solid yellow;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 1rem;
+}
 
+nav {
+  border: 2px solid black;
+  background-color: cadetblue;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  align-items: center;
 }
 
 .logo {
+  border: 2px solid blue;
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
 
+.logo img {
+  border: 1.5px solid black;
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.logo span {
+  border: 1.5px solid black;
 }
 
 .menu {
+  border: 2px solid blue;
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
 
+.menu ul li {
+  border: 1.5px solid black;
+  display: inline;
+  margin-left: 2rem;
 }
 
 .mobile-menu {
+  display: none;
+}
 
+.headline-box-wrapper {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .headline-box {
+  border: 2px solid green;
+  background-color: white;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+}
 
+.headline-box h1 {
+  border: 1.5px solid black;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  color: black;
+  line-height: 1.2;
 }
 
 /* Main */
 main {
-
+  border: 2px solid yellow;
 }
 
 section {
-
+  border: 2px solid green;
 }
 
 /* Supporting Section */
@@ -44,5 +113,5 @@ section {
 
 /* Footer */
 footer {
-
+  border: 2px solid yellow;
 }
