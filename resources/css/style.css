@@ -1,6 +1,7 @@
 /* General Styles */
 html {
   font-size: 18px;
+  font-family: Helvetica;
 }
 
 body {
@@ -104,8 +105,35 @@ section {
 }
 
 /* Supporting Section */
+.supporting {
+  display: flex;
+  justify-content: center;
+}
 
+.service {
+  border: 2px solid green;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
 
+.service img {
+  border: 2px solid blue;
+  width: 5rem;
+}
+
+.service div {
+  border: 2px solid red;
+}
+
+img.paper-icon {
+  width: 3.5rem;
+}
 
 /* Info Section */
 
