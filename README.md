@@ -1,3 +1,1 @@
-# TortoiseshellOptics
-
-https://walczakw.github.io/TortoiseshellOptics/
+https://walczakw.github.io/tortoiseshell-optics/
